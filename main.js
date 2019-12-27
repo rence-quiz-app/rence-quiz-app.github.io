@@ -311,7 +311,7 @@ module.exports = "/* Coded with love by Mutiullah Samim */\r\nbody,\r\nhtml {\r\
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<!DOCTYPE html>\r\n<html>\r\n  <head>\r\n    <title></title>\r\n    <link\r\n      rel=\"stylesheet\"\r\n      href=\"https://use.fontawesome.com/releases/v5.6.1/css/all.css\"\r\n      integrity=\"sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP\"\r\n      crossorigin=\"anonymous\"\r\n    />\r\n  </head>\r\n  <!--Coded with love by Mutiullah Samim-->\r\n  <body>\r\n    <div class=\"container h-100\">\r\n      <div class=\"d-flex justify-content-center h-100\">\r\n        <div class=\"user_card\">\r\n          <div class=\"d-flex justify-content-center\">\r\n            <div class=\"brand_logo_container\">\r\n              <img\r\n                src=\"assets/img/renceSad.jpg\"\r\n                class=\"brand_logo\"\r\n                alt=\"Logo\"\r\n              />\r\n            </div>\r\n          </div>\r\n          <div class=\"d-flex justify-content-center form_container\">\r\n            <form>\r\n              <div class=\"input-group mb-3\">\r\n                <div class=\"input-group-append\">\r\n                  <span class=\"input-group-text\"\r\n                    ><i class=\"fas fa-user\"></i\r\n                  ></span>\r\n                </div>\r\n                <input\r\n                  type=\"text\"\r\n                  name=\"firstname\"\r\n                  class=\"form-control input_user\"\r\n                  value=\"\"\r\n                  placeholder=\"firstname\"\r\n                  [(ngModel)]=\"user.firstname\"\r\n                />\r\n              </div>\r\n              <!-- <div class=\"input-group mb-3\">\r\n                <div class=\"input-group-append\">\r\n                  <span class=\"input-group-text\"\r\n                    ><i class=\"fas fa-user\"></i\r\n                  ></span>\r\n                </div>\r\n                <input\r\n                  type=\"text\"\r\n                  name=\"lastname\"\r\n                  class=\"form-control input_user\"\r\n                  value=\"\"\r\n                  placeholder=\"lastname\"\r\n                  [(ngModel)]=\"user.lastname\"\r\n                />\r\n              </div> -->\r\n              <div class=\"input-group mb-3\">\r\n                <div class=\"input-group-append\">\r\n                  <span class=\"input-group-text\"\r\n                    ><i class=\"fas fa-key\"></i\r\n                  ></span>\r\n                </div>\r\n                <input\r\n                  type=\"password\"\r\n                  name=\"password\"\r\n                  class=\"form-control input_pass\"\r\n                  value=\"\"\r\n                  placeholder=\"password\"\r\n                  [(ngModel)]=\"user.password\"\r\n                />\r\n              </div>\r\n              <div class=\"form-group\">\r\n                <div class=\"custom-control custom-checkbox\">\r\n                  <input\r\n                    type=\"checkbox\"\r\n                    class=\"custom-control-input\"\r\n                    id=\"customControlInline\"\r\n                  />\r\n                  <label class=\"custom-control-label\" for=\"customControlInline\"\r\n                    >Remember me</label\r\n                  >\r\n                </div>\r\n              </div>\r\n              <div class=\"d-flex justify-content-center mt-3 login_container\">\r\n                <button\r\n                  type=\"button\"\r\n                  name=\"button\"\r\n                  class=\"btn login_btn\"\r\n                  (click)=\"login()\"\r\n                >\r\n                  Login\r\n                </button>\r\n              </div>\r\n            </form>\r\n          </div>\r\n\r\n          <div class=\"mt-4\">\r\n            <div class=\"d-flex justify-content-center links\">\r\n              Don't have an account? <a href=\"#\" class=\"ml-2\">Sign Up</a>\r\n            </div>\r\n            <div class=\"d-flex justify-content-center links\">\r\n              <a href=\"#\">Forgot your password?</a>\r\n            </div>\r\n          </div>\r\n        </div>\r\n      </div>\r\n    </div>\r\n  </body>\r\n\r\n  <!-- <div class=\"alert alert-success\" role=\"alert\">\r\n    Successfully Login!\r\n  </div> -->\r\n</html>\r\n\r\n<!-- <p>\r\n  You can pass an existing component as content of the modal window. In this\r\n  case remember to add content component as an\r\n  <code>entryComponents</code> section of your <code>NgModule</code>.\r\n</p>\r\n\r\n<button class=\"btn btn-lg btn-outline-primary\" (click)=\"open()\">\r\n  Launch demo modal\r\n</button> -->\r\n"
+module.exports = "<!DOCTYPE html>\r\n<html>\r\n  <head>\r\n    <title></title>\r\n    <link\r\n      rel=\"stylesheet\"\r\n      href=\"https://use.fontawesome.com/releases/v5.6.1/css/all.css\"\r\n      integrity=\"sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP\"\r\n      crossorigin=\"anonymous\"\r\n    />\r\n  </head>\r\n  <!--Coded with love by Mutiullah Samim-->\r\n  <body>\r\n    <div class=\"container h-100\">\r\n      <div class=\"d-flex justify-content-center h-100\">\r\n        <div class=\"user_card\">\r\n          <div class=\"d-flex justify-content-center\">\r\n            <div class=\"brand_logo_container\">\r\n              <img\r\n                src=\"assets/img/renceSad.jpg\"\r\n                class=\"brand_logo\"\r\n                alt=\"Logo\"\r\n              />\r\n            </div>\r\n          </div>\r\n          <div class=\"d-flex justify-content-center form_container\">\r\n            <form>\r\n              <div class=\"input-group mb-3\">\r\n                <div class=\"input-group-append\">\r\n                  <span class=\"input-group-text\"\r\n                    ><i class=\"fas fa-user\"></i\r\n                  ></span>\r\n                </div>\r\n                <input\r\n                  type=\"text\"\r\n                  name=\"username\"\r\n                  class=\"form-control input_user\"\r\n                  value=\"\"\r\n                  placeholder=\"username\"\r\n                  [(ngModel)]=\"user.username\"\r\n                />\r\n              </div>\r\n\r\n              <div class=\"input-group mb-3\">\r\n                <div class=\"input-group-append\">\r\n                  <span class=\"input-group-text\"\r\n                    ><i class=\"fas fa-key\"></i\r\n                  ></span>\r\n                </div>\r\n                <input\r\n                  type=\"password\"\r\n                  name=\"password\"\r\n                  class=\"form-control input_pass\"\r\n                  value=\"\"\r\n                  placeholder=\"password\"\r\n                  [(ngModel)]=\"user.password\"\r\n                />\r\n              </div>\r\n              <div class=\"form-group\">\r\n                <div class=\"custom-control custom-checkbox\">\r\n                  <input\r\n                    type=\"checkbox\"\r\n                    class=\"custom-control-input\"\r\n                    id=\"customControlInline\"\r\n                  />\r\n                  <label class=\"custom-control-label\" for=\"customControlInline\"\r\n                    >Remember me</label\r\n                  >\r\n                </div>\r\n              </div>\r\n              <div class=\"d-flex justify-content-center mt-3 login_container\">\r\n                <button\r\n                  type=\"button\"\r\n                  name=\"button\"\r\n                  class=\"btn login_btn\"\r\n                  (click)=\"login()\"\r\n                >\r\n                  Login\r\n                </button>\r\n              </div>\r\n            </form>\r\n          </div>\r\n\r\n          <div class=\"mt-4\">\r\n            <div class=\"d-flex justify-content-center links\">\r\n              Don't have an account? <a href=\"#\" class=\"ml-2\">Sign Up</a>\r\n            </div>\r\n            <div class=\"d-flex justify-content-center links\">\r\n              <a href=\"#\">Forgot your password?</a>\r\n            </div>\r\n          </div>\r\n        </div>\r\n      </div>\r\n    </div>\r\n  </body>\r\n</html>\r\n"
 
 /***/ }),
 
@@ -344,17 +344,27 @@ var HomeComponent = /** @class */ (function () {
         this.userService = userService;
         this._router = _router;
         this.user = new _models_user__WEBPACK_IMPORTED_MODULE_2__["Users"]();
+        this.passUserArray = [];
     }
     HomeComponent.prototype.ngOnInit = function () {
         this.fetchUser();
+        //this.search();
     };
     HomeComponent.prototype.fetchUser = function () {
         var _this = this;
-        this.userService.getUsers().subscribe(function (userArray) { return (_this.userArray = userArray); }, function (error) { return (_this.userArray = error); });
+        //const name = this.user.username = "";
+        this.userService.getUsers().subscribe(function (userArray) {
+            return console.log((_this.message =
+                userArray.find(function (x) { return x.username == "WhistleBlower"; }).username !=
+                    undefined
+                    ? "yes"
+                    : "no"));
+        }, function (error) { return (_this.userArray = error); });
     };
     HomeComponent.prototype.login = function () {
         var _this = this;
         this.userService.addUsers(this.user).subscribe(function () {
+            _this.user.username = null;
             _this.user.firstname = null;
             _this.user.lastname = null;
             _this.user.password = null;
@@ -370,6 +380,20 @@ var HomeComponent = /** @class */ (function () {
                 footer: "<a href>Why do I have this issue?</a>"
             });
         });
+        // this.userService.login(this.user).subscribe(
+        //   getuserArray => {
+        //     Swal.fire("Successfully Login!", "You clicked the button!", "success");
+        //   },
+        //   //(this.getuserArray = getuserArray),
+        //   error =>
+        //     Swal.fire({
+        //       icon: "error",
+        //       title: "Oops...",
+        //       text: "Erro Login!",
+        //       footer: "<a href>Why do I have this issue?</a>"
+        //     })
+        //   //(this.getuserArray = <any>error)
+        // );
     };
     HomeComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
@@ -424,7 +448,7 @@ module.exports = "/* Coded with love by Mutiullah Samim */\r\nbody,\r\nhtml {\r\
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<!DOCTYPE html>\n<html>\n  <head>\n    <title></title>\n    <link\n      rel=\"stylesheet\"\n      href=\"https://use.fontawesome.com/releases/v5.6.1/css/all.css\"\n      integrity=\"sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP\"\n      crossorigin=\"anonymous\"\n    />\n  </head>\n  <!--Coded with love by Mutiullah Samim-->\n  <body>\n    <div class=\"container h-100\">\n      <div class=\"d-flex justify-content-center h-100\">\n        <div class=\"user_card\">\n          <div class=\"d-flex justify-content-center\">\n            <div class=\"brand_logo_container\">\n              <img src=\"assets/img/git2.png\" class=\"brand_logo\" alt=\"Logo\" />\n            </div>\n          </div>\n          <div class=\"d-flex justify-content-center form_container\">\n            <form>\n              <div class=\"input-group mb-3\">\n                <div class=\"input-group-append\">\n                  <span class=\"input-group-text\"\n                    ><i class=\"fas fa-user\"></i\n                  ></span>\n                </div>\n                <input\n                  type=\"text\"\n                  name=\"firstname\"\n                  class=\"form-control input_user\"\n                  value=\"\"\n                  placeholder=\"firstname\"\n                  [(ngModel)]=\"user.firstname\"\n                />\n              </div>\n              <div class=\"input-group mb-3\">\n                <div class=\"input-group-append\">\n                  <span class=\"input-group-text\"\n                    ><i class=\"fas fa-user\"></i\n                  ></span>\n                </div>\n                <input\n                  type=\"text\"\n                  name=\"lastname\"\n                  class=\"form-control input_user\"\n                  value=\"\"\n                  placeholder=\"lastname\"\n                  [(ngModel)]=\"user.lastname\"\n                />\n              </div>\n              <div class=\"input-group mb-3\">\n                <div class=\"input-group-append\">\n                  <span class=\"input-group-text\"\n                    ><i class=\"fas fa-key\"></i\n                  ></span>\n                </div>\n                <input\n                  type=\"password\"\n                  name=\"password\"\n                  class=\"form-control input_pass\"\n                  value=\"\"\n                  placeholder=\"password\"\n                  [(ngModel)]=\"user.password\"\n                />\n              </div>\n              <div class=\"form-group\">\n                <div class=\"custom-control custom-checkbox\">\n                  <input\n                    type=\"checkbox\"\n                    class=\"custom-control-input\"\n                    id=\"customControlInline\"\n                  />\n                  <label class=\"custom-control-label\" for=\"customControlInline\"\n                    >Remember me</label\n                  >\n                </div>\n              </div>\n              <div class=\"d-flex justify-content-center mt-3 login_container\">\n                <button\n                  type=\"button\"\n                  name=\"button\"\n                  class=\"btn login_btn\"\n                  (click)=\"add()\"\n                >\n                  Register\n                </button>\n              </div>\n            </form>\n          </div>\n\n          <div class=\"mt-4\">\n            <div class=\"d-flex justify-content-center links\">\n              Don't have an account? <a href=\"#\" class=\"ml-2\">Sign Up</a>\n            </div>\n            <div class=\"d-flex justify-content-center links\">\n              <a href=\"#\">Forgot your password?</a>\n            </div>\n          </div>\n        </div>\n      </div>\n    </div>\n  </body>\n</html>\n"
+module.exports = "<!DOCTYPE html>\n<html>\n  <head>\n    <title></title>\n    <link\n      rel=\"stylesheet\"\n      href=\"https://use.fontawesome.com/releases/v5.6.1/css/all.css\"\n      integrity=\"sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP\"\n      crossorigin=\"anonymous\"\n    />\n  </head>\n  <!--Coded with love by Mutiullah Samim-->\n  <body>\n    <div class=\"container h-100\">\n      <div class=\"d-flex justify-content-center h-100\">\n        <div class=\"user_card\">\n          <div class=\"d-flex justify-content-center\">\n            <div class=\"brand_logo_container\">\n              <img src=\"assets/img/git2.png\" class=\"brand_logo\" alt=\"Logo\" />\n            </div>\n          </div>\n          <div class=\"d-flex justify-content-center form_container\">\n            <form>\n              <div class=\"input-group mb-3\">\n                <div class=\"input-group-append\">\n                  <span class=\"input-group-text\"\n                    ><i class=\"fas fa-user\"></i\n                  ></span>\n                </div>\n                <input\n                  type=\"text\"\n                  name=\"username\"\n                  class=\"form-control input_user\"\n                  value=\"\"\n                  placeholder=\"username\"\n                  [(ngModel)]=\"user.username\"\n                />\n              </div>\n              <div class=\"input-group mb-3\">\n                <div class=\"input-group-append\">\n                  <span class=\"input-group-text\"\n                    ><i class=\"fas fa-user\"></i\n                  ></span>\n                </div>\n                <input\n                  type=\"text\"\n                  name=\"firstname\"\n                  class=\"form-control input_user\"\n                  value=\"\"\n                  placeholder=\"firstname\"\n                  [(ngModel)]=\"user.firstname\"\n                />\n              </div>\n              <div class=\"input-group mb-3\">\n                <div class=\"input-group-append\">\n                  <span class=\"input-group-text\"\n                    ><i class=\"fas fa-user\"></i\n                  ></span>\n                </div>\n                <input\n                  type=\"text\"\n                  name=\"lastname\"\n                  class=\"form-control input_user\"\n                  value=\"\"\n                  placeholder=\"lastname\"\n                  [(ngModel)]=\"user.lastname\"\n                />\n              </div>\n              <div class=\"input-group mb-3\">\n                <div class=\"input-group-append\">\n                  <span class=\"input-group-text\"\n                    ><i class=\"fas fa-key\"></i\n                  ></span>\n                </div>\n                <input\n                  type=\"password\"\n                  name=\"password\"\n                  class=\"form-control input_pass\"\n                  value=\"\"\n                  placeholder=\"password\"\n                  [(ngModel)]=\"user.password\"\n                />\n              </div>\n              <div class=\"form-group\">\n                <div class=\"custom-control custom-checkbox\">\n                  <input\n                    type=\"checkbox\"\n                    class=\"custom-control-input\"\n                    id=\"customControlInline\"\n                  />\n                  <label class=\"custom-control-label\" for=\"customControlInline\"\n                    >Remember me</label\n                  >\n                </div>\n              </div>\n              <div class=\"d-flex justify-content-center mt-3 login_container\">\n                <button\n                  type=\"button\"\n                  name=\"button\"\n                  class=\"btn login_btn\"\n                  (click)=\"add()\"\n                >\n                  Register\n                </button>\n              </div>\n            </form>\n          </div>\n\n          <div class=\"mt-4\">\n            <div class=\"d-flex justify-content-center links\">\n              Don't have an account? <a href=\"#\" class=\"ml-2\">Sign Up</a>\n            </div>\n            <div class=\"d-flex justify-content-center links\">\n              <a href=\"#\">Forgot your password?</a>\n            </div>\n          </div>\n        </div>\n      </div>\n    </div>\n  </body>\n</html>\n"
 
 /***/ }),
 
@@ -458,19 +482,22 @@ var RegisterComponent = /** @class */ (function () {
         this.user = new _models_user__WEBPACK_IMPORTED_MODULE_2__["Users"]();
     }
     RegisterComponent.prototype.ngOnInit = function () {
-        this.fetchUser();
+        //this.fetchUser();
     };
-    RegisterComponent.prototype.fetchUser = function () {
-        var _this = this;
-        this.userService.getUsers().subscribe(function (userArray) { return (_this.userArray = userArray); }, function (error) { return (_this.userArray = error); });
-    };
+    // fetchUser(): void {
+    //   this.userService.getUsers().subscribe(
+    //     userArray => (this.userArray = userArray),
+    //     error => (this.userArray = <any>error)
+    //   );
+    // }
     RegisterComponent.prototype.add = function () {
         var _this = this;
         this.userService.addUsers(this.user).subscribe(function () {
+            _this.user.username = null;
             _this.user.firstname = null;
             _this.user.lastname = null;
             _this.user.password = null;
-            _this.fetchUser();
+            //this.fetchUser();
             sweetalert2__WEBPACK_IMPORTED_MODULE_5___default.a.fire("Registered!", "You may now login!", "success");
             _this._router.navigate(["/home"]);
         }, function (error) {
@@ -537,6 +564,7 @@ var QuizAppService = /** @class */ (function () {
     };
     QuizAppService.prototype.addUsers = function (user) {
         var myObj = {
+            username: user.username,
             firstname: user.firstname,
             lastname: user.lastname,
             password: user.password
@@ -549,12 +577,12 @@ var QuizAppService = /** @class */ (function () {
     };
     QuizAppService.prototype.login = function (user) {
         var myObj = {
-            firstname: user.firstname,
+            firstname: user.username,
             password: user.password
         };
         var headers = new _angular_http__WEBPACK_IMPORTED_MODULE_2__["Headers"]({ "Content-Type": "application/json" });
         var options = new _angular_http__WEBPACK_IMPORTED_MODULE_2__["RequestOptions"]({ headers: headers });
-        return this.http.post(this.userUrl, myObj, options).pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_4__["map"])(this.extractData), Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_4__["catchError"])(function (error) {
+        return this.http.get(this.userUrl).pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_4__["map"])(function (response) { return response.json(); }), Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_4__["catchError"])(function (error) {
             return rxjs__WEBPACK_IMPORTED_MODULE_3__["Observable"].throw(error.json().error || "Server error");
         }));
     };
